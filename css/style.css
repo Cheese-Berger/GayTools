@@ -11,9 +11,19 @@ body {
     text-align: center;
     font-size: 80px;
     color: #ffffff;
+    border-right: 5px rgb(0, 0, 0) solid;
+    border-top: 5px rgb(0, 0, 0) solid;
+    border-left: 5px rgb(0, 0, 0) solid;
+    border-bottom: 5px rgb(0, 0, 0) solid;
+    border-radius: 5px;
 }
 #under-header {
     font-size: 20px;
     margin-left: 10%;
     word-spacing: 50px;
+}
+#vr_image {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
 }
