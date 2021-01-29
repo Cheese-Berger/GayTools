@@ -1,5 +1,9 @@
+a {
+    color: rgb(146, 145, 145);
+}
+
 body {
-    background-color: #282c34;
+    background-color: #3d3f46;
     color: #ffffff;
     font-family: 'Balsamiq Sans', cursive;
 }
@@ -16,6 +20,8 @@ body {
     border-left: 5px rgb(0, 0, 0) solid;
     border-bottom: 5px rgb(0, 0, 0) solid;
     border-radius: 5px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
 }
 #under-header {
     font-size: 20px;
@@ -28,6 +34,12 @@ body {
     vertical-align: middle;
 }
 
-.text {
-    margin-left: 8em
+.text  {
+    margin-left: 8em;
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: black;
+}
+.text h1 {
+    -webkit-text-stroke-width: 2.3px;
+    -webkit-text-stroke-color: black;
 }
