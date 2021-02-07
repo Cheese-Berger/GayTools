@@ -36,7 +36,7 @@ body {
 
 .text  {
     margin-left: 8em;
-    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-width: 1.3px;
     -webkit-text-stroke-color: black;
 }
 .text h1 {
