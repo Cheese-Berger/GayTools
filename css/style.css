@@ -1,6 +1,22 @@
+
+
 a {
     color: rgb(146, 145, 145);
+
+    text-decoration: none;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    /* ...and now for the proper property */
+    transition:.5s;
 }
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
 body {
     background-color: #3d3f46;
